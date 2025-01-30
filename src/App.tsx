@@ -1,9 +1,12 @@
 import './App.css';
+import { AccordionComponent } from './components/AccordionComponent/AccordionComponent';
 
 function App() {
   return (
     <>
-      <h1>Hello world!</h1>
+      <div className='flex justify-center align-middle'>
+        <AccordionComponent />
+      </div>
     </>
   );
 }
